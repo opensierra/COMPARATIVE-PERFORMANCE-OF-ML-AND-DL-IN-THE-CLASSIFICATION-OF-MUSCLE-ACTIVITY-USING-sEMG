@@ -19,7 +19,7 @@ El estudio forma parte de una **investigación de grado en Ingeniería eletróni
 ## Metodología
 
 La metodología se estructuró en tres fases principales:
-![**Fig. 1** Metodología.](imagages/metodologia.png)
+![**Fig. 1** Metodología.](images/metodologia.png)
 
 ---
 
