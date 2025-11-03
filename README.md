@@ -11,12 +11,11 @@ El estudio forma parte de una **investigación de grado en Ingeniería eletróni
 
 se utilizaron: datos de sujetos (sanos y con condiciones específicas detalladas en ), algoritmos de extracción de características en el dominio de tiempo (Carateristicas de Hjorth), técnicas de clasificación por clustering (K-means), y métricas de rendimiento precisión: exactitud (accuracy), precisión (precision), exhaustividad (recall) y puntaje F1, junto con los promedios macro y ponderado (weighted avg). Además, se calculó el tiempo de inferencia medio por muestra como indicador del costo computacional.
 
----
-
 ## Metodología
 ![**Fig. 1** Metodología.](images/metodologia.png)
 > **Figura:** Metodologia de estudio.  
 > *Creación propia.*
+
 ---
 
 ## Resultados
@@ -35,10 +34,6 @@ Los resultados experimentales muestran que las técnicas profundas superan a las
 
 
 Se concluye que las diferencias entre ambos enfoques no son **estadísticamente significativas**, sin embargo, Los modelos profundos en general demandan **mayor costo computacional**.
-
----
-
-## Figura
 
 ![**Fig. 1** resultados.](images/resultados.png)
 > **Figura:** Rendimiento comparativo de técnicas (profundas vs. automáticas) con clasificadores variados.  
