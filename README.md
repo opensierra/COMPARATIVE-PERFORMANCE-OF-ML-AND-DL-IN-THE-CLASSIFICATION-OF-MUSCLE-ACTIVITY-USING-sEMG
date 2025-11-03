@@ -15,7 +15,8 @@ se utilizaron: datos de sujetos (sanos y con condiciones específicas detalladas
 
 ## Metodología
 ![**Fig. 1** Metodología.](images/metodologia.png)
-
+> **Figura:** Metodologia de estudio.  
+> *Creación propia.*
 ---
 
 ## Resultados
@@ -37,17 +38,18 @@ Se concluye que las diferencias entre ambos enfoques no son **estadísticamente 
 
 ---
 
+## Figura
+
+![**Fig. 1** resultados.](images/resultados.png)
+> **Figura:** Rendimiento comparativo de técnicas (profundas vs. automáticas) con clasificadores variados.  
+> *Creación propia.*
+
+---
+
 ## Herramientas desarrolladas
 
 - Herramienta de Clasificación EMG  
 - Herramienta de Clasificación EMG + Extracción de Características
-
----
-
-## Figura
-
-> **Figura:** Rendimiento comparativo de técnicas (profundas vs. automáticas) con clasificadores variados.  
-> *Creación propia.*
 
 ---
 
