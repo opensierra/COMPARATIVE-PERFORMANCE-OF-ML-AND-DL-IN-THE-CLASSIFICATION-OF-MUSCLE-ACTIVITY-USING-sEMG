@@ -14,6 +14,8 @@ Este proyecto presenta el desarrollo de un **estudio comparativo** entre técnic
 
 El estudio forma parte de una **investigación de grado en Ingeniería eletrónica**, enfocada en el desarrollo de **herramientas de apoyo** para proyectos de **reconocimiento de patrones musculares**.
 
+se utilizaron: datos de sujetos (sanos y con condiciones específicas detalladas en ), algoritmos de extracción de características en el dominio de tiempo (Carateristicas de Hjorth), técnicas de clasificación por clustering (K-means), y métricas de rendimiento precisión: exactitud (accuracy), precisión (precision), exhaustividad (recall) y puntaje F1, junto con los promedios macro y ponderado (weighted avg). Además, se calculó el tiempo de inferencia medio por muestra como indicador del costo computacional.
+
 ---
 
 ## Metodología
@@ -23,7 +25,7 @@ El estudio forma parte de una **investigación de grado en Ingeniería eletróni
 
 ## Resultados
 
-Los resultados experimentales muestran que las **técnicas profundas superan a las tradicionales** en precisión promedio:
+Los resultados experimentales muestran que las técnicas profundas superan a las tradicionales en precisión promedio (ej. 0.99 vs. 0.97), con diferencias estadísticamente poco significativas. 
 
 | Modelo       | Precisión | Recall  | F1-Score | Exactitud | Tiempo de inferencia (S) | Desviación Estándar (S) | Uso de RAM (MB) | Espacio en disco (MB) |
 |---------------|------------|----------|-----------|------------|----------------------------|---------------------------|------------------|------------------------|
