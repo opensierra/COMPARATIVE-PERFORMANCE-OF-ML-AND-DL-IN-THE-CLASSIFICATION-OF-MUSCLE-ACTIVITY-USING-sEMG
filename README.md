@@ -17,8 +17,6 @@ El estudio forma parte de una **investigación de grado en Ingeniería eletróni
 ---
 
 ## Metodología
-
-La metodología se estructuró en tres fases principales:
 ![**Fig. 1** Metodología.](images/metodologia.png)
 
 ---
@@ -27,10 +25,16 @@ La metodología se estructuró en tres fases principales:
 
 Los resultados experimentales muestran que las **técnicas profundas superan a las tradicionales** en precisión promedio:
 
-| Tipo de técnica     | Precisión promedio |
-|----------------------|--------------------|
-| Tradicional (ML)     | 0.72 |
-| Profunda (DL)        | 0.85 |
+| Modelo       | Precisión | Recall  | F1-Score | Exactitud | Tiempo de inferencia (S) | Desviación Estándar (S) | Uso de RAM (MB) | Espacio en disco (MB) |
+|---------------|------------|----------|-----------|------------|----------------------------|---------------------------|------------------|------------------------|
+| Decision Tree | 0.975      | 0.98     | 0.975     | 0.97       | 0.01                       | 0.002                     | 342              | 0.03                   |
+| Random Forest | 0.985      | 0.98     | 0.985     | 0.984      | 0.0411                     | 0.008                     | 405              | 12.1                   |
+| KNN           | 0.975      | 0.99     | 0.98      | 0.98       | 1.5                        | 0.3                       | 356              | 10                     |
+| SVM           | 0.9999     | 0.9997   | 0.9998    | 0.99       | 19.89                      | 2.338                     | 637              | 0.1                    |
+| CNN           | 0.9997     | 0.9997   | 0.9997    | 0.9997     | 0.15                       | 0.02                      | 1661.48          | 0.0607                 |
+| LSTM          | 0.9992     | 0.9992   | 0.9992    | 0.9992     | 0.12                       | 0.023                     | 1100.48          | 0.2509                 |
+| CNN-LSTM      | 0.999      | 0.9993   | 0.999     | 0.9992     | 0.18                       | 0.193                     | 1300             | 0.36                   |
+
 
 Se realizó una **prueba t-Student**, concluyendo que las diferencias entre ambos enfoques son **estadísticamente significativas**.  
 Los modelos profundos también demostraron **mayor robustez ante la variabilidad inter-sujeto**, funcionando como un **enfoque híbrido eficiente** en términos de **error y tiempo computacional**.
