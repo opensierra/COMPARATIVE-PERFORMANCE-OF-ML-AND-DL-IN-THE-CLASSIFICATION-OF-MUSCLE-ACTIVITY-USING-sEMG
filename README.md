@@ -3,11 +3,6 @@
 
 Repositorio de proyecto de grado bajo la modalidad pasantia de investigacion para el grupo MAGMA ingenieria de la Universidad del Magdalena, linea de bioingeniería, Incluye dependencias de paquetes, comandos y configuraciones del proyecto. Además, proporciona gráficos relacionados con el preprocesamiento de datos y un gráfico que muestra los resultados de uno de varios experimentos realizados como parte de la investigación de grado en ingeniería electrónica en la Universidad del Magdalena.
 
----
-> **Correo de contacto:**  
-> luisretamozoar@unimagdalena.edu.co
----
-
 ## Descripción del proyecto
 
 Este proyecto presenta el desarrollo de un **estudio comparativo** entre técnicas de **aprendizaje automático** (como *DT*, *RF*, *KNN* y *SVM*) y **aprendizaje profundo** (*CNN*, *LSTM* y *CNN-LSTM*), aplicadas a **señales sEMG** del **bíceps braquial** para la **clasificación de estado sobre la actividad muscular**.
@@ -57,15 +52,13 @@ Se concluye que las diferencias entre ambos enfoques no son **estadísticamente 
 ---
 
 ## Investigación adicional
-
-- Integración de técnicas híbridas (ML + DL).  
-- Evaluación con métricas adicionales: *ROC-AUC*, *Confusion Matrix Ranking*.  
-- Aplicación de rankings iterativos para selección de características candidatas.  
-- Uso de clustering para eliminar redundancias en las características musculares.
+  
+- Evaluación con métricas adicionales: *Confusion Matrix Ranking*.    
+- Uso de clustering en características musculares.
 
 ---
 
 ## Contacto
-
-✉️ [tu-email]@gmail.com  
-*(Reemplaza con tu correo real).*
+---
+> luisretamozoar@unimagdalena.edu.co
+---
