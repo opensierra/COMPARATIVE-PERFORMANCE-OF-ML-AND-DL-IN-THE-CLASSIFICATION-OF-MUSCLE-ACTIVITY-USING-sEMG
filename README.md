@@ -38,8 +38,7 @@ Los resultados experimentales muestran que las técnicas profundas superan a las
 | CNN-LSTM      | 0.999      | 0.9993   | 0.999     | 0.9992     | 0.18                       | 0.193                     | 1300             | 0.36                   |
 
 
-Se realizó una **prueba t-Student**, concluyendo que las diferencias entre ambos enfoques son **estadísticamente significativas**.  
-Los modelos profundos también demostraron **mayor robustez ante la variabilidad inter-sujeto**, funcionando como un **enfoque híbrido eficiente** en términos de **error y tiempo computacional**.
+Se concluye que las diferencias entre ambos enfoques no son **estadísticamente significativas**, sin embargo, Los modelos profundos en general demandan **mayor costo computacional**.
 
 ---
 
