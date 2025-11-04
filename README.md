@@ -44,13 +44,13 @@ Se concluye que las diferencias entre ambos enfoques no son **estadísticamente 
 ## Herramientas desarrolladas
 
 - Herramienta de Clasificación EMG  
-  -- Modelo DT preentrenado
-  -- Modelo RF preentrenado
-  -- Modelo KNN preentrenado
-  -- Modelo SVM preentrenado
-  -- Modelo CNN preentrenado
-  -- Modelo LSTM preentrenado
-  -- Modelo CNN-LSTM preentrenado
+  - Modelo DT preentrenado
+  - Modelo RF preentrenado
+  - Modelo KNN preentrenado
+  - Modelo SVM preentrenado
+  - Modelo CNN preentrenado
+  - Modelo LSTM preentrenado
+  - Modelo CNN-LSTM preentrenado
 - Datos crudos
 - Datos Procesados (3 versiones)
 - algoritmos de entrenamientos
